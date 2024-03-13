@@ -49,3 +49,7 @@ header {
     /* debug */
     height: 200px;
 }
+
+#portfolio .row img {
+    border-radius: 10px;
+}
