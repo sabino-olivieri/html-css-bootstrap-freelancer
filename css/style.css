@@ -1,1 +1,19 @@
 /* UTILITIES */
+
+.ms_bg-dark-blue {
+    background-color: #2D3E50;
+}
+
+.ms_bg-blue {
+    background-color: #3A546D;
+}
+
+.ms_bg-green {
+    background-color: #1BBC9B;
+}
+
+/* debug */
+
+.ms_border {
+    border: 1px solid red;
+}
