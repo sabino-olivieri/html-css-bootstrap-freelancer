@@ -13,6 +13,11 @@ img {
     max-width: 100%;
 }
 
+input, textarea {
+    all: unset;
+
+}
+
 /* UTILITIES */
 
 .ms_bg-dark-blue {
@@ -43,6 +48,8 @@ header {
     height: 60px;
 }
 
+/* MAIN */
+
 /* hero */
 
 .hero {
@@ -50,6 +57,22 @@ header {
     height: 200px;
 }
 
+/* portfolio */
+
 #portfolio .row img {
     border-radius: 10px;
 }
+
+/* about */
+
+/* contact */
+
+#contact input, #contact textarea  {
+    border-bottom: 1px solid grey;
+    width: 90%;
+
+}
+
+/* FOOTER */
+
+/* cta */
