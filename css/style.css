@@ -13,10 +13,6 @@ img {
     max-width: 100%;
 }
 
-input, textarea {
-    all: unset;
-
-}
 
 /* UTILITIES */
 
@@ -72,11 +68,23 @@ input, textarea {
 /* about */
 
 /* contact */
+.ms_input {
+    border-radius: 0;
+}
 
-#contact input, #contact textarea  {
-    border-bottom: 1px solid grey;
-    width: 90%;
+form .ms_input:focus
+    {
+        border-color: #1BBC9B;
+        border-radius: 10px;
+        box-shadow: 0 0 0 0.25rem #1bbc9c;
+    }
 
+.ms_button:hover {
+    background-color: #2D3E50;
+}
+
+#contact .ms_button:active {
+    background-color: #3A546D;
 }
 
 /* FOOTER */
