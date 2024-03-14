@@ -32,6 +32,22 @@ input, textarea {
     background-color: #1BBC9B;
 }
 
+.ms_small-container {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.ms_line {
+
+    width: 20%;
+    max-width: 124px;
+
+}
+
+/* .ms_line {
+   max-width: 80px;
+} */
+
 /* debug */
 
 .ms_border {
@@ -45,16 +61,13 @@ input, textarea {
 
 /* hero */
 
-.hero {
-    /* debug */
-    /* height: 200px; */
+.ms_avatar {
+    max-width: 200px;
 }
+
+
 
 /* portfolio */
-
-#portfolio .row img {
-    border-radius: 10px;
-}
 
 /* about */
 
