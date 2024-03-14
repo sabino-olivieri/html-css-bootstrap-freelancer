@@ -32,10 +32,6 @@ input, textarea {
     background-color: #1BBC9B;
 }
 
-.ms_gap {
-    gap: 10px;
-}
-
 /* debug */
 
 .ms_border {
@@ -44,9 +40,6 @@ input, textarea {
 
 /* HEADER */
 
-header {
-    height: 60px;
-}
 
 /* MAIN */
 
@@ -54,7 +47,7 @@ header {
 
 .hero {
     /* debug */
-    height: 200px;
+    /* height: 200px; */
 }
 
 /* portfolio */
