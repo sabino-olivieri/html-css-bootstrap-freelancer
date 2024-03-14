@@ -1,18 +1,7 @@
 /* RESET */
-
-ul {
-    list-style: none;
-}
-
-a {
-    all: unset;
-    cursor: pointer;
-}
-
 img {
     max-width: 100%;
 }
-
 
 /* UTILITIES */
 
@@ -33,25 +22,17 @@ img {
     margin: 0 auto;
 }
 
-.ms_line {
-
-    width: 20%;
-    max-width: 124px;
-
+.ms_medium-container {
+    max-width: 70%;
+    margin: 0 auto;
 }
 
-/* .ms_line {
-   max-width: 80px;
-} */
-
-/* debug */
-
-.ms_border {
-    border: 1px solid red;
+.ms_line {
+    width: 20%;
+    max-width: 124px;
 }
 
 /* HEADER */
-
 
 /* MAIN */
 
@@ -60,8 +41,6 @@ img {
 .ms_avatar {
     max-width: 200px;
 }
-
-
 
 /* portfolio */
 
@@ -72,12 +51,11 @@ img {
     border-radius: 0;
 }
 
-form .ms_input:focus
-    {
-        border-color: #1BBC9B;
-        border-radius: 10px;
-        box-shadow: 0 0 0 0.25rem #1bbc9c;
-    }
+form .ms_input:focus {
+    border-color: #1BBC9B;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.25rem #1BBC9B;
+}
 
 .ms_button:hover {
     background-color: #2D3E50;
@@ -88,5 +66,22 @@ form .ms_input:focus
 }
 
 /* FOOTER */
+
+.ms_circle {
+    width: 3em;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ms_circle:hover {
+    color: #1BBC9B;
+    border-color: #1BBC9B;
+}
+
+.ms_link {
+    color: #1BBC9B;
+    text-decoration: none;
+}
 
 /* cta */
