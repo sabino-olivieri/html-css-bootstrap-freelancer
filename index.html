@@ -24,10 +24,10 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark ms_bg-dark-blue">
             <!-- container -->
-            <div class="container-md">
+            <div class="container">
                 <!-- logo -->
                 <a class="navbar-brand" href="#">
-                    <h4 class="text-uppercase">start bootstrap</h4>
+                    <span class="fs-4 fw-bold text-uppercase">start bootstrap</span>
                 </a>
                 <!-- /logo -->
 
@@ -36,7 +36,7 @@
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
                     <i class="bi bi-list"></i>
-                </button>   
+                </button>
                 <!-- /menu-button -->
 
                 <!-- menu-expanded -->
@@ -44,7 +44,8 @@
                     aria-labelledby="offcanvasDarkNavbarLabel">
 
                     <div class="offcanvas-header">
-                        <h4 class="offcanvas-title text-uppercase text-white" id="offcanvasDarkNavbarLabel">start bootstrap</h4>
+                        <h4 class="offcanvas-title text-uppercase text-white" id="offcanvasDarkNavbarLabel">start
+                            bootstrap</h4>
                         <button type="button" class="btn text-white ms-auto border-white" data-bs-dismiss="offcanvas"
                             aria-label="Close">
                             <i class="bi bi-x-lg"></i>
@@ -86,17 +87,37 @@
     <main>
 
         <!-- hero -->
-        <section class="hero ms_bg-green">
-            <div class="container-md ms_border">
-                <!-- <img src="./img/avatar.svg" alt=""> -->
-                <h2>ciao</h2>
+        <section class="hero ms_bg-green py-5">
+
+            <div class="ms_small-container">
+                <div class="container text-center text-white">
+                    <img src="./img/avatar.svg" class="ms_avatar" alt="">
+                    <h1 class=" text-uppercase my-2">start bootstrap</h1>
+                    
+                    <div class="row justify-content-center align-items-center my-2">
+                        <div class="col-2">
+                            <hr class="border-white border-3 opacity-100 rounded-5">
+                        </div>
+    
+                        <div class="col-auto">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+    
+                        <div class="col-2">
+                            <hr class="border-white border-3 opacity-100 rounded-5">
+                        </div>
+                    </div>
+
+                    <span class="text-uppercase">graphic artist - web designer - illustrator</span>
+                </div>
+
             </div>
         </section>
         <!-- /hero -->
 
         <!-- portfolio -->
         <section class="py-5" id="portfolio">
-            <div class="container-md ms_border">
+            <div class="container ms_border">
 
                 <div class="title text-uppercase text-center py-2">
                     <h2>portfolio</h2>
@@ -136,7 +157,7 @@
         <!-- about -->
         <section class="ms_bg-green py-5" id="about">
 
-            <div class="container-md ms_border">
+            <div class="container ms_border">
                 <div class="title text-uppercase text-white text-center">
                     <h2>about</h2>
                 </div>
